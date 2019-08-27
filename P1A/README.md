@@ -14,14 +14,14 @@ For building the database I selected a star schema, as it simplifies generating 
 
 ### Fact Table
 
-    - Songplays: records in log data associated with song plays. Columns: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
+- Songplays: records in log data associated with song plays. Columns: songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
 ### Dimension Tables
 
-    - Users: users in the app. Columns: user_id (PK), first_name, last_name, gender, level
-    - Songs: songs in music database. Columns: song_id (PK), title, artist_id, year, duration
-    - Artists: artists in music database. Columns: artist_id (PK), name, location, latitude, longitude
-    - Time: timestamps of records in songplays broken down into specific units. Columns: start_time (PK), hour, day, week, month, year, weekday
+- Users: users in the app. Columns: user_id (PK), first_name, last_name, gender, level
+- Songs: songs in music database. Columns: song_id (PK), title, artist_id, year, duration
+- Artists: artists in music database. Columns: artist_id (PK), name, location, latitude, longitude
+- Time: timestamps of records in songplays broken down into specific units. Columns: start_time (PK), hour, day, week, month, year, weekday
 
 ## How to use
 
