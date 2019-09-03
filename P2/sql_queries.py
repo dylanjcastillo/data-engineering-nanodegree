@@ -46,13 +46,13 @@ CREATE TABLE IF NOT EXISTS staging_songs
 (
 num_songs        INTEGER,
 artist_id        TEXT,
-artist_latitude  DECIMAL,
-artist_longitude DECIMAL,
+artist_latitude  FLOAT,
+artist_longitude FLOAT,
 artist_location  VARCHAR,
 artist_name      TEXT,
 song_id          TEXT,
 title            TEXT,
-duration         DECIMAL,
+duration         FLOAT,
 year             INTEGER
 );
 """)
@@ -90,7 +90,7 @@ song_id   TEXT PRIMARY KEY,
 title     TEXT,
 artist_id TEXT NOT NULL,
 year      INTEGER,
-duration  DECIMAL
+duration  FLOAT
 );
 """)
 
@@ -100,8 +100,8 @@ CREATE TABLE IF NOT EXISTS artists
 artist_id TEXT PRIMARY KEY,
 name      TEXT,
 location  TEXT,
-latitude  DECIMAL,
-longitude DECIMAL
+latitude  FLOAT,
+longitude FLOAT
 );
 """)
 
