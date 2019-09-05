@@ -1,4 +1,4 @@
-# P1.B - Data Modeling with Apache Cassandra
+# P1.B: Data Modeling with Apache Cassandra
 
 This project consists of a notebook that processes data and generates a NoSQL database using Apache Cassandra, for a fictitious startup called Sparkify. The case study was that this company had been collecting data on user activity from their music streaming application and stored it as CSV files but could not query the data and generate insights out of it.
 
