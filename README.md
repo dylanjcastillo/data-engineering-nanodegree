@@ -26,3 +26,11 @@ This project comprises the scripts required for setting up a Data Warehouse on a
 During this project, a Redshift cluster, a database (following a star schema) and its relevant tables were setup. Using this database the Sparkify analytics team will access, aggregate and generate insights from their users’ data. 
 
 Check the project [here](P2/README.md).
+
+### P3: Data Lake
+
+This project comprises the scripts required for setting up a Data Lake on a using Spark and a S3 bucket. This company had been collecting data on user activity from their music streaming application, and storing them as JSON files. However, this rudimentary way of storing data generated some difficulties when extracting insights from the data.
+
+This directory contains the ETL process, that results in parquet tables following a star schema. Using this tables the Sparkify analytics team will access, aggregate and generate insights from their users’ data.
+
+Check the project [here](P3/README.md).
