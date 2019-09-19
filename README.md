@@ -34,3 +34,12 @@ This project comprises the scripts required for setting up a Data Lake on a usin
 This directory contains the ETL process, that results in parquet tables following a star schema. Using this tables the Sparkify analytics team will access, aggregate and generate insights from their users’ data.
 
 Check the project [here](P3/README.md).
+
+### P4: Data Pipelines
+
+This project comprises the scripts required for setting up a Data Pipeline a using Apache Airflow for Sparkify. This company had been collecting data on user activity from their music streaming application, and storing them as JSON files. However, this rudimentary way of storing data generated some difficulties when extracting insights from the data.
+
+This directory contains the DAGs, helpers, and operators, that processes data coming from an S3 and adds it to a Redshift database. Using this tables the Sparkify analytics team will access, aggregate and generate insights from their users’ data.
+
+Check the project [here](P3/README.md).
+
